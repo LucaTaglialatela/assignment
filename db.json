@@ -1,0 +1,63 @@
+  {
+    "orders": [
+      {
+        "property": {
+          "id": "integer",
+          "name": "string"
+        },
+        
+        "room": {
+          "id": "integer",
+          "name": "string"
+        },
+
+        "price": "string",
+
+        "created_at": "2022-05-04"
+      },
+
+      {
+        "property": {
+          "id": 0,
+          "name": "Imperial Hotel Taipei"
+        },
+        
+        "room": {
+          "id": 0,
+          "name": "Royal Suite"
+        },
+
+        "price": "8,600",
+
+        "created_at": "2022-05-04"
+      },
+
+      {
+        "property": {
+          "id": 0,
+          "name": "Imperial Hotel Taipei"
+        },
+        
+        "room": {
+          "id": 1,
+          "name": "Normal Suite"
+        },
+
+        "price": "3,000",
+
+        "created_at": "2022-05-04"
+      }
+    ],
+
+    "posts": [
+      { "id": 1, "title": "json-server", "author": "typicode" },
+      { "id": 2, "title": "json-server", "author": "asdasd" },
+      { "id": 3, "title": "json-server", "author": "typasaafaficode" }
+    ],
+
+    "comments": [
+      { "id": 1, "body": "some comment", "postId": 1 }
+    ],
+
+    "profile": { "name": "typicode" }
+  }
